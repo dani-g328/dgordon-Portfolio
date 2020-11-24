@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="381"
+   height="324"
+   viewBox="0 0 381 324"
+   version="1.1"
+   id="svg50"
+   sodipodi:docname="Group 2.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata56">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs54">
+    <filter
+       inkscape:label="Chalk and Sponge"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Low turbulence gives sponge look and high turbulence chalk"
+       width="1.6"
+       height="2"
+       y="-0.5"
+       x="-0.3"
+       style="color-interpolation-filters:sRGB;"
+       id="filter192">
+      <feTurbulence
+         baseFrequency="0.4"
+         type="fractalNoise"
+         seed="0"
+         numOctaves="5"
+         result="result1"
+         id="feTurbulence188" />
+      <feDisplacementMap
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="30"
+         in="SourceGraphic"
+         in2="result1"
+         id="feDisplacementMap190" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Roughen"
+       id="filter302">
+      <feTurbulence
+         type="fractalNoise"
+         numOctaves="1"
+         seed="1"
+         baseFrequency="0.022 0.013"
+         result="turbulence"
+         id="feTurbulence298" />
+      <feDisplacementMap
+         in="SourceGraphic"
+         in2="turbulence"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         id="feDisplacementMap300"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix304" />
+      <feTurbulence
+         id="feTurbulence306"
+         type="fractalNoise"
+         numOctaves="1"
+         seed="238"
+         baseFrequency="0.022 0.013"
+         result="turbulence"
+         in="fbSourceGraphic" />
+      <feDisplacementMap
+         in2="turbulence"
+         id="feDisplacementMap308"
+         in="fbSourceGraphic"
+         scale="6.6"
+         yChannelSelector="G"
+         xChannelSelector="R" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1002"
+     id="namedview52"
+     showgrid="false"
+     inkscape:zoom="3.816273"
+     inkscape:cx="224.88779"
+     inkscape:cy="155.56409"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg50"
+     inkscape:snap-text-baseline="false" />
+  <ellipse
+     style="fill:#00aa44;fill-rule:evenodd;stroke-width:1.08911;filter:url(#filter192)"
+     id="path84"
+     cx="241.85901"
+     cy="163.11728"
+     rx="39.567398"
+     ry="34.457706"
+     transform="matrix(1.014957,0,0,1.0128765,13.29965,-0.92121599)" />
+  <text
+     id="D-2"
+     fill="#2d2222"
+     stroke="#fcf7f7"
+     stroke-width="0.318659"
+     font-size="44.2935px"
+     font-family="InkFree, 'Ink Free'"
+     x="171.75858"
+     y="131.16641"
+     transform="matrix(1.0227322,0,0,0.97777307,67.605227,36.422971)"
+     style="filter:url(#filter302)"><tspan
+       x="171.75858"
+       y="131.16641"
+       id="tspan40-3"
+       style="stroke-width:0.318659">D</tspan></text>
+  <text
+     id="J-8"
+     stroke="#f7f3f3"
+     stroke-width="0.218515"
+     font-size="30.3735px"
+     font-family="InkFree, 'Ink Free'"
+     x="224.15753"
+     y="192.60205"
+     transform="scale(1.1471964,0.87169033)"><tspan
+       x="224.15753"
+       y="192.60205"
+       id="tspan43-8"
+       style="stroke-width:0.218515">J</tspan></text>
+  <text
+     id="G-3"
+     fill="#2d1313"
+     stroke="#ffffff"
+     stroke-width="0.275002"
+     font-size="38.2251px"
+     font-family="InkFree, 'Ink Free'"
+     x="239.81302"
+     y="188.27005"
+     transform="scale(1.0149054,0.98531351)"><tspan
+       x="239.81302"
+       y="188.27005"
+       id="tspan46-9"
+       style="stroke-width:0.275002">G</tspan></text>
+</svg>
