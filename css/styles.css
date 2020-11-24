@@ -10122,9 +10122,9 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  align-content: center;
+  width: 35%;
 }
-
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
