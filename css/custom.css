@@ -1,14 +1,25 @@
 body {
   font-family: serif !important;
 }
+.navbar-brand {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 500;
+}
+.masthead .masthead-heading {
+  font-family: 'Libre Baskerville', serif !important;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Playfair Display', serif !important;
+}
 .bg-secondary {
-    background-color: #5B5E5B !important;
+    background-color:   #3e5d3e  !important;
   }
   .bg-primary {
-    background-color: #2D7339  !important;
+    background-color:  #679067  !important;
   }
   .footer {
-    background-color: #2D7339 !important;
+    background-color:  #679067  !important;
   }
 .btn-primary {
   color: #fff;
@@ -30,3 +41,9 @@ body {
     color: #fff;
     background: #34723A;
   }
+  .divider-custom {
+    color: #264026 !important;
+  }
+.divider-custom.divider-light .divider-custom-icon {
+  color: #264026 !important;
+}
