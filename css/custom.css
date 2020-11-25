@@ -2,6 +2,31 @@ body {
   font-family: serif !important;
 }
 .bg-secondary {
-    background-color: red !important;
+    background-color: #5B5E5B !important;
   }
-  
+  .bg-primary {
+    background-color: #2D7339  !important;
+  }
+  .footer {
+    background-color: #2D7339 !important;
+  }
+.btn-primary {
+  color: #fff;
+  background-color: #34723A !important;
+  border-color: #34723A !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #34723A !important;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  background-color: #34723A !important;
+}
+.copyright {
+  background-color: #253F27 !important;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #34723A;
+  }
